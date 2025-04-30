@@ -1,0 +1,113 @@
+
+   .profile-card {
+   
+     background-color: #ffffff;
+   
+     border-radius: 12px;
+   
+     width: 300px;
+   
+     padding: 20px;
+   
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+   
+     text-align: center;
+   
+     border: 1px solid rgb(251, 225, 242);
+   
+   }
+   
+   
+   .profile-img {
+   
+     width: 110px;
+   
+     height: 100px;
+   
+     border-radius: 50%;
+   
+     margin-bottom: 10px;
+   
+   }
+   
+   
+   .profile-card h2 {
+   
+     margin: 10px 0 5px;
+   
+     font-size: 1.2rem;
+   
+   }
+   
+   .profile-card p {
+   
+     color: #666;
+   
+     font-size: 0.9rem;
+   
+   }
+   
+   
+   .like-btn {
+   
+     margin-top: 10px;
+   
+     padding: 8px 12px;
+   
+     background-color: #ff6b81;
+   
+     color: white;
+   
+     border: none;
+   
+     border-radius: 6px;
+   
+     margin-right: 8px;
+   
+     cursor: pointer;
+   
+     font-size: 14px;
+   
+   }
+   
+   
+   .like-btn:hover {
+   
+     background-color: #ff4757;
+   
+   }
+   
+   .follow-btn {
+   
+     background-color: #3498db;
+   
+     margin-top: 10px;
+   
+     padding: 8px 12px;
+   
+     border: none;
+   
+     border-radius: 6px;
+   
+   }
+   
+   
+   .follow-btn.followed {
+   
+     background-color: #2ecc71;
+   
+   }
+   .unfollow-btn {
+     padding: 10px 15px;
+     margin: 5px;
+     border: none;
+     border-radius: 5px;
+     background-color: #ff4d4d; /* Red color for unfollow */
+     color: white;
+     cursor: pointer;
+     font-size: 1rem;
+ }
+ 
+ .unfollow-btn:hover {
+     background-color: #cc0000; /* Darker red on hover */
+ }
